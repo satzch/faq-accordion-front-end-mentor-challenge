@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/satzch/faq-accordion-front-end-mentor-project](https://github.com/satzch/faq-accordion-front-end-mentor-project)
+- Solution URL: [https://github.com/satzch/faq-accordion-front-end-mentor-challenge](https://github.com/satzch/faq-accordion-front-end-mentor-challenge)
 - Live Site URL: [https://satzch.github.io/faq-accordion-front-end-mentor-challenge](https://satzch.github.io/faq-accordion-front-end-mentor-challenge)
 
 ## My process

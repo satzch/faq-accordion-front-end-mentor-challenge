@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/satzch/faq-accordion-front-end-mentor-project](https://github.com/satzch/faq-accordion-front-end-mentor-project)
+- Live Site URL: [https://satzch.github.io/faq-accordion-front-end-mentor-project/](https://satzch.github.io/faq-accordion-front-end-mentor-project/)
 
 ## My process
 
@@ -53,6 +53,14 @@ Users should be able to:
 ```js
 function toggleAnswer(e){
     const parent = e.currentTarget.parentElement
+
+    for( let element of questions){
+        let parentDiv = element.parentElement
+        if(element === e.currentTarget) continue
+        parentDiv.children[0].classList.remove("bold")
+        parentDiv.children[1].classList.add("hidden")
+        parentDiv.children[0].children[1].classList.remove("invert")
+    }
 
     parent.children[0].classList.toggle("bold")
     parent.children[1].classList.toggle("hidden")

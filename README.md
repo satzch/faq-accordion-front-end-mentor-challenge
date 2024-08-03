@@ -51,28 +51,6 @@ Users should be able to:
 - Mobile-first workflow
 
 
-### What I learned
-
-
-```js
-function toggleAnswer(e){
-    const parent = e.currentTarget.parentElement
-
-    for( let element of questions){
-        let parentDiv = element.parentElement
-        if(element === e.currentTarget) continue
-        parentDiv.children[0].classList.remove("bold")
-        parentDiv.children[1].classList.add("hidden")
-        parentDiv.children[0].children[1].classList.remove("invert")
-    }
-
-    parent.children[0].classList.toggle("bold")
-    parent.children[1].classList.toggle("hidden")
-    parent.children[0].children[1].classList.toggle("invert")
-}
-```
-
-
 ## Author
 
 - Frontend Mentor - [@satzch](https://www.frontendmentor.io/profile/satzch)
